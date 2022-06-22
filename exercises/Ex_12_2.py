@@ -1,6 +1,13 @@
-matrizA = [[0, 0], [0, 0]]
+## Aluno - Ricardo J Fellini
+
+##Faça um programa que leia as dimensões de duas matrizes A e B, e depois leia as duas matrizes (os
+##elementos devem ser inteiros). Se as matrizes forem de tamanhos compatíveis para multiplicação,
+## multiplique as matrizes. Imprima as matrizes A, B e a matriz resultante da multiplicação.
+matrizA = [[0, 0],
+           [0, 0]]
 matrizB = [[0, 0], [0, 0]]
-matrizC = [[0, 0], [0, 0]]
+matrizC = [[0, 0],
+           [0, 0]]
 
 
 def recebeMatriz():
@@ -14,7 +21,9 @@ def recebeMatriz():
 
 
 def multiplicaMatrizes():
-    numeroLinhasA, numeroLinhasB = len(matrizA), len(matrizB)
+    numeroLinhasA = len(matrizA[0])
+    numeroLinhasB = len(matrizB[0])
+
     numeroColunasA, numeroColunasB = len(matrizA[0]), len(matrizB[0])
 
     if (numeroLinhasA == numeroLinhasB) and (numeroColunasA == numeroColunasB):

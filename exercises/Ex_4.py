@@ -1,3 +1,7 @@
+## Aluno - Ricardo J Fellini
+##Faça um Programa que leia um vetor A com 10 números inteiros, calcule e mostre a soma dos
+##quadrados dos elementos do vetor.
+
 numeros = [2, 3, 4, 12, 32, 4, 11, 22, 45, 5]
 
 

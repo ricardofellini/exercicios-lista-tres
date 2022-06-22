@@ -1,3 +1,7 @@
+## Aluno - Ricardo J Fellini
+##Nome na vertical em escada. Modifique o programa anterior de forma a mostrar o nome em formato
+##de escada.
+
 def exercicio_9():
     nome = str(input("Digite o nome.:"))
     nome2 = ""
